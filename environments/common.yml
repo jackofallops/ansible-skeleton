@@ -1,0 +1,8 @@
+---
+- hosts: all
+  roles: []
+
+- include: ci.yml
+- include: production.yml
+- include: sit.yml
+- include: test.yml
